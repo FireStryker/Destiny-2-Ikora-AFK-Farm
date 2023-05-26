@@ -1,4 +1,4 @@
-﻿; Ikora Ray Exotic Legendary Shard Farm Autohotkey
+; Ikora Ray Exotic Legendary Shard Farm Autohotkey
 ; by FireStriker
 #SingleInstance, Force
 SendMode Input
@@ -6,18 +6,23 @@ SetWorkingDir, %A_ScriptDir%
 
 F3::
 {
-	InputBox, armor_type, Destiny 2 Ikora Rey Farm by FireStriker, 1 for Arms`, 2 for Chest`, 3 for Legs
+	InputBox, armor_type, Destiny 2 Ikora Rey Farm by FireStriker, 1 for Helm`, 2 for Arms`, 3 for Chest`, 4 for Legs
 	if (armor_type = 1)
 	{
 		ikora_y := 650
-		armor_y := 394
+		armor_y := 270
 	}
 	else if (armor_type = 2)
 	{
 		ikora_y := 650
-		armor_y := 518
+		armor_y := 394
 	}
 	else if (armor_type = 3)
+	{
+		ikora_y := 650
+		armor_y := 518
+	}
+	else if (armor_type = 4)
 	{
 		ikora_y := 750
 		armor_y := 625
@@ -39,6 +44,7 @@ F3::
         Send, i
 		Sleep, 1500
 		MouseMove, 1392, armor_y
+		sleep, 100
 		MouseMove, 1500, armor_y
 		sleep, 200
 		loop, 9 
