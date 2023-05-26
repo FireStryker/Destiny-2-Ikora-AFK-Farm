@@ -40,6 +40,7 @@ F3::
 		Sleep, 1500
 		MouseMove, 1392, armor_y
 		MouseMove, 1500, armor_y
+		sleep, 200
 		loop, 9 
 		{
 			Send, {f Down}
