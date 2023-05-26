@@ -34,7 +34,7 @@ F3::
         loop, 9
 		{
             MouseClick, Left, 1160, ikora_y,, U
-			Sleep, 1200
+			Sleep, 1400
 		}
         Send, i
 		Sleep, 1500
