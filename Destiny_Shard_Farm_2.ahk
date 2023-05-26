@@ -39,7 +39,7 @@ F3::
         Send, i
 		Sleep, 1500
 		MouseMove, 1392, armor_y
-		Sleep 100
+		Sleep 200
 		MouseMove, 1500, armor_y
 		loop, 9 
 		{
