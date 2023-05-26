@@ -1,4 +1,5 @@
 # Destiny-2-Ikora-AFK-Farm-Autohotkey
-This script was deisgned for 1080p Monitors, You can modify the code to fit your display.
+Quick and Dirty Autohotkey Script for Farming Legndary Shards
+ATM it only works for 1080p Monitors but is easily modifable to any monitor resoultion using AutoHotkey WindowSpy
 F3 Starts the scrpt
 F4 Stops the script
